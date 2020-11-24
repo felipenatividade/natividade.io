@@ -1,50 +1,45 @@
-baseURL = "https://felipenatividade.com"
-languageCode = "en-us"
+baseURL = "felipenatividade.com"
 title = "Felipe Natividade"
-theme = "hermit"
+
+theme = "hugo-coder"
+
+languageCode = "en"
+defaultContentLanguage = "en"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+    author = "Felipe Natividade"
+    description = "Felipe Natividade's personal website"
+    info = "Python Developer from Brazil"
+    avatarURL = "images/avatar.jpg"
 
-  # Metadata mostly used in document's head
-  # description = ""
-  # images = [""]
-  themeColor = "#494f5c"
+    dateFormat = "January 2, 2006"
 
-  homeSubtitle = "Python Developer from Brazil."
-  footerCopyright = "Felipe Natividade"
-  # bgImg = ""  # Homepage background-image URL
+    hideFooter = false
+    hideCredits = false
+    hideCopyright = false
 
-  # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = "https://github.com/username/repository/commit/"
+    rtl = false
 
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = false  # Set "text-align: justify" to `.content`.
+    colorScheme = "auto"
 
-  relatedPosts = false  # Add a related content section to all single posts page
+    # Hide the toggle button, along with the associated vertical divider
+    hideColorSchemeToggle = false
+    
+    # Enable Twemoji
+    enableTwemoji = true
 
-  code_copy_button = true # Turn on/off the code-copy-button for code-fields
-  
-  # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
-
-  # Social Icons
-  # Check https://github.com/Track3/hermit#social-icons for more info.
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/felipenatividade"
-
-  [[params.social]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/felipe-natividade-45b301142/"
-
-  [[params.social]]
-    name = "twitter"
+[[params.social]]
+    name = "Github"
+    icon = "fa fa-github"
+    weight = 1
+    url = "https://github.com/felipenatividade/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fa fa-twitter"
+    weight = 3
     url = "https://twitter.com/billynatividade"
-  
-  [[params.social]]
-    name = "email"
-    url = "mailto:felipecmro@hotmail.com"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/felipe-natividade-45b301142/"
