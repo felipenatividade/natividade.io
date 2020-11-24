@@ -14,19 +14,7 @@ defaultContentLanguage = "en"
 
     dateFormat = "January 2, 2006"
 
-    hideFooter = false
-    hideCredits = false
-    hideCopyright = false
-
-    rtl = false
-
     colorScheme = "auto"
-
-    # Hide the toggle button, along with the associated vertical divider
-    hideColorSchemeToggle = false
-    
-    # Enable Twemoji
-    enableTwemoji = true
 
 [[params.social]]
     name = "Github"
@@ -42,4 +30,4 @@ defaultContentLanguage = "en"
     name = "LinkedIn"
     icon = "fa fa-linkedin"
     weight = 4
-    url = "https://www.linkedin.com/in/felipe-natividade-45b301142/"
+    url = "https://www.linkedin.com/in/felipenatividade/"
