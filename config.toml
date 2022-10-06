@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 [params]
     author = "Felipe Natividade"
     description = "Felipe Natividade's personal website"
-    info = "Python Developer from Brazil"
+    info = "Software Developer from Brazil"
     avatarURL = "images/avatar.jpg"
 
     dateFormat = "January 2, 2006"
